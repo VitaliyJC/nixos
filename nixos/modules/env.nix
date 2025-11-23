@@ -1,10 +1,11 @@
 {
-  environment.sessionVariables = rec {
-    TERMINAL = "alacritty";
-    EDITOR = "nvim";
-    XDG_BIN_HOME = "$HOME/.local/bin";
-    PATH = [
-      "${XDG_BIN_HOME}"
-    ];
-  };
+  environment.systemPackages = with pkgs; [
+    vim # Do not forget to add an editor to edit co>
+    wget
+    git
+    firefox
+    alacritty
+    xfce.thunar
+    networkmanagerapplet
+  ];
 }
