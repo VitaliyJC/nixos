@@ -5,6 +5,7 @@
     ./hardware-configuration.nix
     ./local-packages.nix
     ./modules
+    ./pkgs-modules
   ];
 
   networking.hostName = "netbook";
