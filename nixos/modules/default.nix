@@ -4,15 +4,11 @@
     ./bluetooth.nix
     ./boot.nix
     ./env.nix
-    ./home-manager.nix
-    ./hyprland.nix
-    ./kernel.nix
-    ./mime.nix
+    ./i3.nix
+    ./i18n.nix
     ./net.nix
-    ./nh.nix
-    ./nix.nix
+    ./security.nix
     ./timezone.nix
     ./user.nix
-    ./zram.nix
   ];
 }
