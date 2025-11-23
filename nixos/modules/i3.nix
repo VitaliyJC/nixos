@@ -20,5 +20,5 @@
     };
   };
 
-  services.displayManager.defaultSession = "none+i3>
+  services.displayManager.defaultSession = "none+i3";
 }

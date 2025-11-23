@@ -1,10 +1,11 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
-    gcc
-    kdenlive
-    # jetbrains.pycharm-professional
-    # jre8
-    # qemu
-    # quickemu
+    vim # Do not forget to add an editor to edit co>
+    wget
+    git
+    firefox
+    alacritty
+    xfce.thunar
+    networkmanagerapplet
   ];
 }

@@ -7,6 +7,8 @@
     ./nixos/modules
   ];
 
+    environment.systemPackages = [ pkgs];
+
   system.stateVersion = "25.05";
 }
 
