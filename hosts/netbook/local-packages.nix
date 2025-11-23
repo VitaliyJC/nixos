@@ -1,6 +1,6 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
-    vim # Do not forget to add an editor to edit co>
+    vim
     wget
     git
     firefox
