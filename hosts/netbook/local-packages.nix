@@ -1,9 +1,13 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
+    # Desktop
+    firefox
+    telegram-desktop
+    pavucontrol
+
     vim
     wget
     git
-    firefox
     alacritty
     xfce.thunar
     networkmanagerapplet
