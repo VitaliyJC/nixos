@@ -1,4 +1,4 @@
-{ config, lib, pkgs, ... }:
+{ config, pkgs, ... }:
 
 {
   imports = [
@@ -6,6 +6,8 @@
     ./local-packages.nix
     ./modules
   ];
+
+  networking.hostName = "netbook";
 
   system.stateVersion = "25.05";
 }
