@@ -4,6 +4,8 @@
     firefox
     telegram-desktop
     pavucontrol
+    picom # тени, сглаживания, прозрачность
+    dunst # уведомления
 
     # Cli
     pulseaudio
