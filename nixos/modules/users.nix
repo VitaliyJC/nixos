@@ -1,4 +1,4 @@
-{
+{ pkgs, ... }:  {
  users.users.vitaliy = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager"]; # En>

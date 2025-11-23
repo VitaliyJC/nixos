@@ -9,6 +9,6 @@
     ./net.nix
     ./security.nix
     ./timezone.nix
-    ./user.nix
+    ./users.nix
   ];
 }
