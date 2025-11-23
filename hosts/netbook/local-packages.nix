@@ -5,6 +5,8 @@
     telegram-desktop
     pavucontrol
 
+    # Cli
+    pulseaudio
     vim
     wget
     git
