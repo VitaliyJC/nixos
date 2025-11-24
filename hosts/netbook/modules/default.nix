@@ -10,5 +10,7 @@
     ./security.nix
     ./timezone.nix
     ./users.nix
+    ./net.nix
+    ./home-manager.nix
   ];
 }
