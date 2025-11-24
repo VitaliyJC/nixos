@@ -12,5 +12,6 @@
     ./timezone.nix
     ./users.nix
     ./net.nix
+    ./picom.nix
   ];
 }
