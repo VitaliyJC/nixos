@@ -8,6 +8,7 @@
     dunst # уведомления
 
     # Cli
+    home-manager
     pulseaudio
     vim
     wget
