@@ -11,6 +11,5 @@
     ./timezone.nix
     ./users.nix
     ./net.nix
-    ./home-manager.nix
   ];
 }
