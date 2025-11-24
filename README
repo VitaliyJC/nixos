@@ -1,0 +1,9 @@
+Каналы
+nix-channel --list
+nix-channel --add https://nixos.org/channels/nixos-25.05
+nix-channel --add https://github.com/nix-community/home-manager/archive/release-25.05.tar.gz home-manager
+
+nix-channel --update
+nixos-rebuild switch --upgrade
+
+home-manager switch
