@@ -14,7 +14,6 @@
       domain = "*.pipka.site";
       extraDomainNames = [
       "pipka.site"
-
       # подзоны
       "*.severnaya.pipka.site"
       "*.osenyaya.pipka.site"
