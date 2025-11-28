@@ -5,7 +5,6 @@
     vim
     wget
     git
-    alacritty
     networkmanagerapplet
   ];
 }
