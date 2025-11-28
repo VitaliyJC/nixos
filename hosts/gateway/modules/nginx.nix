@@ -4,6 +4,6 @@
   services.nginx = {
     enable = true;
 
-    # appendHttpConfig = builtins.readFile ./nginx-gateway.conf;
+    appendHttpConfig = builtins.readFile /home/pipka/nginx/nginx-gateway.conf;
   };
 }
