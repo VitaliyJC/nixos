@@ -1,7 +1,7 @@
 { pkgs, ... }:  {
  users.users.pipka = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager"]; # En>
+    extraGroups = [ "wheel" "networkmanager" "docker"]; # En>
     #  packages = with pkgs; [
     #   nano
     #   wget

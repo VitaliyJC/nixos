@@ -10,5 +10,6 @@
     ./swap.nix
     ./timezone.nix
     ./users.nix
+    ./virtualisation.nix
   ];
 }
