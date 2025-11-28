@@ -5,7 +5,7 @@
   # Получение сертификатов доменного имени
   security.acme = {
   acceptTerms = true;
-  email = "you@example.com";
+  email = "pipon@pipa.com";
 
   certs."pipka.site-wild" = {
     domain = "*.pipka.site";
