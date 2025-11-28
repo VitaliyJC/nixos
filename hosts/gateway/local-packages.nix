@@ -6,5 +6,6 @@
     wget
     git
     networkmanagerapplet
+    docker-compose
   ];
 }
