@@ -2,7 +2,6 @@
   environment.localBinInPath = true;
 
   environment.sessionVariables = {
-    TERMINAL = "alacritty";
     EDITOR = "nano";
 
     LANG = "en_US.UTF-8";
