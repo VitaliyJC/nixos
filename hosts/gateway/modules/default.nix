@@ -4,6 +4,7 @@
     ./env.nix
     ./i18n.nix
     ./net.nix
+    ./nginx.nix
     ./nix.nix
     ./security.nix
     ./ssh.nix
