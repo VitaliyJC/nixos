@@ -12,7 +12,16 @@
 
     certs."pipka.site-wild" = {
       domain = "*.pipka.site";
-      extraDomainNames = [ "pipka.site" ];
+      extraDomainNames = [
+      "pipka.site"
+
+      # подзоны
+      "*.severnaya.pipka.site"
+      "*.osenyaya.pipka.site"
+      "*.omskaya.pipka.site"
+      "*.dacha.pipka.site"
+      "*.garage.pipka.site"
+    ];
       dnsProvider = "godaddy";
       credentialsFile = "/root/godaddy-acme.env";
       dnsPropagationCheck = true;
