@@ -6,6 +6,8 @@
     ./net.nix
     ./nix.nix
     ./security.nix
+    ./ssh.nix
+    ./swap.nix
     ./timezone.nix
     ./users.nix
   ];
